@@ -10,12 +10,8 @@ float c=0;
 cin >> a >> b >> c;
 
 //Qui va scritto il codice per eseguire i calcoli richiesti
-float AreaTriangolo = (a * b) / 2;
-float AreaQuadrato = a * a;
-float AreaRettangolo = a * b;
-float AreaTrapezio = ( a + a) * c / 2;
-cout << "AreaTriangolo:" << AreaTriangolo << endl;
-cout << "AreaQuadrato:" << AreaQuadrato << endl;
-cout << "AreaRettangolo:" << AreaRettangolo << endl;
-cout << "AreaTrapezio:" << AreaTrapezio << endl;
+cout << (a * b) / 2 << endl;
+cout << a * a << endl;
+cout << a * b << endl;
+cout << (a + b) * c / 2 << endl;
 }
